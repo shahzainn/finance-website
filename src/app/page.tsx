@@ -5,7 +5,7 @@ import { FlipWords } from "@/components/ui/flip-words";
 import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 import { ShootingStars } from "@/components/ui/shooting-stars";
 import { StarsBackground } from "@/components/ui/stars-background";
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { useState } from "react";
 
 export default function Home() {
@@ -311,7 +311,7 @@ export default function Home() {
           {!submitted ? (
             <>
               <DialogHeader>
-                <DialogTitle className="text-2xl">Let's Talk</DialogTitle>
+                <DialogTitle className="text-2xl">Let&apos;s Talk</DialogTitle>
               </DialogHeader>
               
               <form onSubmit={handleSubmit} className="space-y-6 mt-4">
@@ -385,7 +385,7 @@ export default function Home() {
                 </svg>
               </div>
               <DialogTitle className="text-2xl mb-4">Message Sent!</DialogTitle>
-              <p className="text-neutral-400">Thank you for reaching out. We'll get back to you soon.</p>
+              <p className="text-neutral-400">Thank you for reaching out. We&apos;ll get back to you soon.</p>
             </div>
           )}
         </DialogContent>
